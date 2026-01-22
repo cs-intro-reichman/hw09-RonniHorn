@@ -81,7 +81,7 @@ public class List {
             if(current.cp.chr == chr)
             {
                 current.cp.count++;
-                break;
+                return;
             }
             current = current.next;
         }
